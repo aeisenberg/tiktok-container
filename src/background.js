@@ -5,7 +5,7 @@ const TIKTOK_CONTAINER_DETAILS = {
   icon: "chill"
 };
 
-const ALL_TIKTOK_DOMAINS = [
+const TIKTOK_DOMAINS = [
   "tiktok.com",
   "tiktok.com",
   "tiktok.org",
@@ -29,14 +29,6 @@ const ALL_TIKTOK_DOMAINS = [
   "app.musemuse.cn",
   "share.musemuse.cn"
 ];
-
-let TIKTOK_DOMAINS = [
-"example.com"
-];
-
-TIKTOK_DOMAINS = TIKTOK_DOMAINS.concat(
-  ALL_TIKTOK_DOMAINS,  
-);
 
 const MAC_ADDON_ID = "@testpilot-containers";
 
